@@ -1,0 +1,17 @@
+<robot name="test_robot">
+    <link name="link_1"/>
+    <link name="link_2"/>
+    <link name="link_3"/>
+
+    <joint name="joint_1" type="revolute">
+        <parent link="link_1"/>
+        <child link="link_2"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="joint_2" type="revolute">
+        <parent link="link_2"/>
+        <child link="link_3"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+</robot>
