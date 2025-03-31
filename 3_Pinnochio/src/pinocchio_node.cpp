@@ -1,7 +1,4 @@
 /**
- * @file robot_model_node.cpp
- * @brief ROS 2 node that uses Pinocchio for robot kinematics and dynamics
- * 
  * This node subscribes to robot description and performs various operations using Pinocchio:
  * - Creates a Pinocchio model from URDF
  * - Performs forward kinematics to get transforms

@@ -10,6 +10,22 @@ This node demonstrates several key capabilities of the Pinocchio library:
 3. **Jacobian Computation**: Calculates the Jacobian matrix at a specific frame (end effector)
 4. **Collision Detection**: Performs basic collision checking between robot links
 
+## Project Structure
+
+```
+ros2_pinocchio_node/
+├── CMakeLists.txt
+├── package.xml
+├── src/
+│   └── robot_model_node.cpp
+├── launch/
+│   └── robot_model.launch.py
+├── urdf/
+│   └── robot.urdf
+└── test/
+    └── test_joint_states.py
+```
+
 ## My Setup Specifications
 - ROS 2 Humble
 - Pinocchio library
@@ -94,22 +110,6 @@ When running the node, you should see output similar to:
 ```
 
 The exact values will depend on your robot model and joint positions.
-
-## Project Structure
-
-```
-ros2_pinocchio_node/
-├── CMakeLists.txt
-├── package.xml
-├── src/
-│   └── robot_model_node.cpp
-├── launch/
-│   └── robot_model.launch.py
-├── urdf/
-│   └── robot.urdf
-└── test/
-    └── test_joint_states.py
-```
 
 ## Implementation Details
 
