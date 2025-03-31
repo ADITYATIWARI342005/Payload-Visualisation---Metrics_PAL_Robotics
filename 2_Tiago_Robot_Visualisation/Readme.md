@@ -2,6 +2,15 @@
 
 This repository provides tools to visualize the TIAGo robot from PAL Robotics in RViz. It uses the [tiago_robot](https://github.com/pal-robotics/tiago_robot) repository to load the robot description and display it in RViz.
 
+## Project Structure
+
+2_Tiago_Robot_Visualisation/
+│-- Readme.md         # Instructions for setting up and running the visualization
+│-- video_link        # A file containing a link to a demo video
+
+
+
+
 ## Dependencies
 
 - ROS2 humble
